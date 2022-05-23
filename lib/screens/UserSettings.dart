@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pet_tracker_ifmt/data/Globals.dart';
 import 'package:pet_tracker_ifmt/connectors/Username.dart';
 import 'package:pet_tracker_ifmt/screens/Home.dart';
+import 'package:pet_tracker_ifmt/screens/MapScreen.dart';
 
 class UserSettingsScreen extends StatefulWidget {
   @override
@@ -51,7 +52,7 @@ class UserSettingsScreenState extends State<UserSettingsScreen> {
                         Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => HomeScreen(),
+                              builder: (context) => MapScreen(),
                             ));
                       }
                     },

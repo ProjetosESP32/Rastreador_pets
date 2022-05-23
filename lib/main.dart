@@ -9,6 +9,7 @@ import 'package:pet_tracker_ifmt/data/Channel.dart';
 import 'package:pet_tracker_ifmt/data/Message.dart';
 import 'package:pet_tracker_ifmt/data/Globals.dart';
 import 'package:pet_tracker_ifmt/screens/BluetoothSettings.dart';
+import 'package:pet_tracker_ifmt/screens/MapScreen.dart';
 import 'package:pet_tracker_ifmt/screens/UserSettings.dart';
 
 void main() {
@@ -46,7 +47,7 @@ class AppMainClass extends StatelessWidget {
     });
     return new MaterialApp(
       title: "BlueRa",
-      home: localUser == null ? UserSettingsScreen() : HomeScreen(),
+      home: localUser == null ? UserSettingsScreen() : MapScreen(),
     );
   }
 }
