@@ -43,8 +43,10 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyBM_9Go7X4TML51pFp0DOk7itbzFlY7Y7k"/>
         applicationId "com.example.pet_tracker_ifmt"
-        minSdkVersion 19 
+        minSdkVersion 20
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
