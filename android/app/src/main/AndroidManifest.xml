@@ -4,6 +4,8 @@
         android:label="pet_tracker_ifmt"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyCANWLRI1dRfvDt6aywtaBwptQBemS2WcQ"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -20,8 +22,11 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
-<meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyBM_9Go7X4TML51pFp0DOk7itbzFlY7Y7k"/>
+
+            <!-- <meta-data android:name="com.google.android.geo.API_KEY"
+                        android:value="AIzaSyBM_9Go7X4TML51pFp0DOk7itbzFlY7Y7k"/> -->
+
+                
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
